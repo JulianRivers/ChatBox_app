@@ -7,7 +7,7 @@ class ChatProvider extends ChangeNotifier {
   final ScrollController chatScrollController = ScrollController();
   final List<Message> messages = [
     Message(text: 'Hello, Bill!', fromWho: FromWho.me),
-    Message(text: 'Cae el sábado a programar?', fromWho: FromWho.me),
+    Message(text: 'Cae el sábado a mi casa?', fromWho: FromWho.me),
     Message(text: 'Sorry, but I have to go to England that day.', fromWho: FromWho.his, imageUrl: 'https://media.giphy.com/media/CHSHxWaOEmlFwEVRmk/giphy.gif')
   ];
 

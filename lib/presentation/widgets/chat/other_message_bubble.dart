@@ -4,11 +4,10 @@ import 'package:yes_no_app/domain/entities/message.dart';
 class OtherMessageBubble extends StatelessWidget {
   
   final Message message;
-  final String imageUrl;
+  
   const OtherMessageBubble({
     super.key, 
     required this.message,
-    required this.imageUrl,
     });
   
   @override
