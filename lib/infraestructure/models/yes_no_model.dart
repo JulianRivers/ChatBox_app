@@ -23,6 +23,7 @@ class YesNoModel {
         "forced": forced,
         "image": image,
     };
+    
     Message toMessageEntity() => Message(
       text: answer, 
       fromWho: FromWho.his,
